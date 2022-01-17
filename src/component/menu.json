@@ -1,0 +1,26 @@
+{
+    "bebCalientes": [
+        {
+            "teCon": "con azucar",
+            "te": "sin azucar",
+            "img": ""
+        },
+        {
+            "cafeCon": "con azucar",
+            "cafe": "sin azucar",
+            "img": ""
+        }
+    ],
+    "bebFrias": [
+        {
+            "aguaSin": "mineral con gas",
+            "agua": "mineral sin gas",
+            "Jugos": [
+                {
+                    "piña": "Con piña natural",
+                    "durazno": "saber durazno"
+                }
+            ]
+        }
+    ]
+}
