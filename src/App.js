@@ -1,14 +1,20 @@
 import './App.css';
-import Bienvenida from './component/Bienvenida';
-import Prueba from './component/prueba';
+import Home from './component/Home';
+import Waiters from './component/Waiters';
+import Kitchen from './component/Kitchen';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-     <h1>¡Hola Mundo!</h1>
-     <Bienvenida/>
-     <Prueba />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/Waiters" element={<Waiters />} />
+        <Route path="/kitchen" element={<Kitchen />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

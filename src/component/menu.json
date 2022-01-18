@@ -1,26 +1,60 @@
 {
     "bebCalientes": [
         {
-            "teCon": "con azucar",
-            "te": "sin azucar",
-            "img": "https://user-images.githubusercontent.com/89401079/149781300-e57df4ad-bc8b-4ec9-bae9-1113af3f9249.jpg"
+            "id": "1",
+            "te": "te con azucar",
+            "valor": "$500",
+            "img": ""
+        },
+            {
+                "id": "2",
+                "te": "Te sin azucar",
+                "valor": "$500",
+                "img": "https://user-images.githubusercontent.com/89401079/149781300-e57df4ad-bc8b-4ec9-bae9-1113af3f9249.jpg"
+            },
+        {
+            "id": "3",
+            "cafe": "cafe con azucar",
+            "valor": "600",
+            "img": ""
         },
         {
-            "cafeCon": "con azucar",
-            "cafe": "sin azucar",
+            "id": "4",
+            "cafe": "cafe sin azucar",
+            "valor": "600",
             "img": "https://user-images.githubusercontent.com/89401079/149781394-4c64eec6-be6e-40d0-b24d-4298af2aab47.jpg"
         }
     ],
     "bebFrias": [
-        {
-            "aguaSin": "mineral con gas",
-            "agua": "mineral sin gas",
-            "Jugos": [
-                {
-                    "piña": "Con piña natural",
-                    "durazno": "saber durazno"
-                }
-            ]
-        }
+       {
+        "id": "5",
+        "bebida": "coca cola",
+        "valor": "800",
+        "img": ""
+       },
+       {
+        "id": "6",
+        "bebida": "fanta",
+        "valor": "800",
+        "img": ""
+       },
+       {
+        "id": "7",
+        "bebida": "sprite",
+        "valor": "800",
+        "img": ""
+       },
+       {
+        "id": "8",
+        "bebida": "agua mineral con gas",
+        "valor": "700",
+        "img": ""
+       },
+       {
+        "id": "9",
+        "bebida": "agua mineral sin gas",
+        "valor": "700",
+        "img": ""
+       }
     ]
 }
