@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className='container mt-5'>
-           <h1>Bienvenidos</h1> 
-           <Link to="/Waiters" className='btn btn-outline-success'> Pedidos </Link>
-           <Link to="/Kitchen" className='btn btn-outline-success'> Cocina </Link>
+        <div id='home' className='container text-center vh-100'>
+           <h1>Bienvenidos</h1>
+           <section className='text-center'>
+           <Link to="/Waiters"> <button type="button" class="btn btn-primary btn-lg">Pedidos</button></Link>
+           <Link to="/Kitchen"> <button type="button" class="btn btn-primary btn-lg">Cocina</button> </Link>  
+           </section>
         </div>
     )
 }

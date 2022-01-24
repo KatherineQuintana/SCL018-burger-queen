@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+
 const Waiters = () => {
     const perfect = 'Aqui se debe pedir';
+
+
     return (
         <div className='container mt-5'>
             <p>{perfect}</p>
