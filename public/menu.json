@@ -1,60 +1,99 @@
 {
-    "bebCalientes": [
+    "bebidas": [
         {
             "id": "1",
-            "te": "te con azucar",
-            "valor": "$500",
-            "img": ""
+            "bebestible": "te",
+            "valor": "500",
+            "img": "https://user-images.githubusercontent.com/89401079/150892156-cc07a809-fe65-4a10-8d4e-8d38d103621d.jpg"
         },
-            {
-                "id": "2",
-                "te": "Te sin azucar",
-                "valor": "$500",
-                "img": "https://user-images.githubusercontent.com/89401079/149781300-e57df4ad-bc8b-4ec9-bae9-1113af3f9249.jpg"
-            },
+        {
+            "id": "2",
+            "bebestible": "café",
+            "valor": "600",
+            "img": "https://user-images.githubusercontent.com/89401079/150892215-5e05ebe3-fa76-48b9-a4e7-6016283df41b.jpg"
+        },
         {
             "id": "3",
-            "cafe": "cafe con azucar",
-            "valor": "600",
-            "img": ""
+            "bebestible": "coca cola",
+            "valor": "800",
+            "img": "https://user-images.githubusercontent.com/89401079/150892259-9fb0c7ec-bdb2-4cda-96e8-d32f4209ee04.png"
         },
         {
             "id": "4",
-            "cafe": "cafe sin azucar",
-            "valor": "600",
-            "img": "https://user-images.githubusercontent.com/89401079/149781394-4c64eec6-be6e-40d0-b24d-4298af2aab47.jpg"
+            "bebestible": "fanta",
+            "valor": "800",
+            "img": "https://user-images.githubusercontent.com/89401079/150892291-7c26684e-018f-42f8-88db-5bc03edf6310.jpg"
+        },
+        {
+            "id": "5",
+            "bebestible": "sprite",
+            "valor": "800",
+            "img": "https://user-images.githubusercontent.com/89401079/150892352-0e207e13-1f1d-42e7-88d2-32db42aec420.png"
+        },
+        {
+            "id": "6",
+            "bebestible": "agua mineral con gas",
+            "valor": "700",
+            "img": "https://user-images.githubusercontent.com/89401079/150892411-293acf58-2e32-462b-b241-fd5af86a1045.jpg"
+        },
+        {
+            "id": "7",
+            "bebestible": "agua mineral sin gas",
+            "valor": "700",
+            "img": "https://user-images.githubusercontent.com/89401079/150892451-637172ac-46a6-43d6-a431-eb690b1a7db9.jpg"
         }
     ],
-    "bebFrias": [
-       {
-        "id": "5",
-        "bebida": "coca cola",
-        "valor": "800",
-        "img": ""
-       },
-       {
-        "id": "6",
-        "bebida": "fanta",
-        "valor": "800",
-        "img": ""
-       },
-       {
-        "id": "7",
-        "bebida": "sprite",
-        "valor": "800",
-        "img": ""
-       },
-       {
-        "id": "8",
-        "bebida": "agua mineral con gas",
-        "valor": "700",
-        "img": ""
-       },
-       {
-        "id": "9",
-        "bebida": "agua mineral sin gas",
-        "valor": "700",
-        "img": ""
-       }
+    "comidas": [
+        {
+            "id": "8",
+            "alimento": "",
+            "valor": "",
+            "img": ""
+        },
+        {
+            "id": "9",
+            "alimento": "",
+            "valor": "",
+            "img": ""
+        },
+        {
+            "id": "10",
+            "alimento": "",
+            "valor": "",
+            "img": ""
+        },
+        {
+            "id": "11",
+            "alimento": "",
+            "valor": "",
+            "img": ""
+        }
+    ],
+    "boardgame": [
+        {
+            "id": "12",
+            "juego": "Dixit",
+            "img": "https://user-images.githubusercontent.com/89401079/150892523-b6cbd576-ee3b-435b-ad0b-dba06c7eab3f.jpg"
+        },
+        {
+            "id": "13",
+            "juego": "exploding kittens",
+            "img": "https://user-images.githubusercontent.com/89401079/150892581-9318057b-a69c-4e7d-b7b5-c22fd9d487e5.jpg"
+        },
+        {
+            "id": "14",
+            "juego": "Sushi go party",
+            "img": "https://user-images.githubusercontent.com/89401079/150892655-2db0e48f-49fc-415d-a19a-b15fb06509a7.jpg"
+        },
+        {
+            "id": "15",
+            "juego": "The resistance",
+            "img": "https://user-images.githubusercontent.com/89401079/150892691-6488c7f3-9100-4d97-9426-8662ebcd55c3.jpg"
+        },
+        {
+            "id": "16",
+            "juego": "Ticket to ride",
+            "img": "https://user-images.githubusercontent.com/89401079/150892722-3b00dff3-3956-435f-8596-b9468a980197.jpeg"
+        }
     ]
 }
