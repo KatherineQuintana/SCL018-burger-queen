@@ -3,11 +3,31 @@ import { Link } from "react-router-dom";
 
 const Kitchen = () => {
     return (
-        <div className='container mt-5'>
-            <p>Aqui va la cocina</p>
-            <Link to="/Home" className='btn btn-outline-primary'> Home </Link>
-           <Link to="/Waiters" className='btn btn-outline-primary'> Pedidos </Link>
-           <hr/>
+      //Navbar
+      <div className='container mt-5'>
+      <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-primary">
+<div class="container-fluid">
+<strong class="navbar-brand" >Navbar</strong>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+ <ul class="navbar-nav">
+   <li class="nav-item">
+   <Link to="/Home" class="btn btn-primary btn-lg"> Home </Link>
+   </li>
+   <hr/>
+   <li class="nav-item">
+   <Link to="/Kitchen" class="btn btn-primary btn-lg"> Cocina </Link>
+   </li>
+   <hr/>
+   <li class="nav-item">
+   <Link to=""class="btn btn-primary btn-lg"> carro </Link>
+   </li>
+ </ul>
+</div>
+</div>
+</nav>
            
         </div>
     )
