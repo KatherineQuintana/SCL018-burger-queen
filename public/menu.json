@@ -2,44 +2,51 @@
     "bebidas": [
         {
             "id": "1",
-            "bebestible": "te",
+            "bebestible": "Te",
             "valor": "500",
+            "description":"Exquisita infusión preparada con las hojas secas molidas y brotes del arbusto Camellia sinensis en agua caliente.",
             "img": "https://user-images.githubusercontent.com/89401079/150892156-cc07a809-fe65-4a10-8d4e-8d38d103621d.jpg"
         },
         {
             "id": "2",
-            "bebestible": "café",
+            "bebestible": "Café",
             "valor": "600",
+            "description": "Exquisita bebida de cafe de grano filtrado donde la extracción se realiza de 5 a 6 minutos, lo que destaca el sabor y aroma del café Cumbre.",
             "img": "https://user-images.githubusercontent.com/89401079/150892215-5e05ebe3-fa76-48b9-a4e7-6016283df41b.jpg"
         },
         {
             "id": "3",
-            "bebestible": "coca cola",
+            "bebestible": "Coca cola",
             "valor": "800",
+            "description": "gaseosa fría a base de agua carbonatada sin alcohol.",
             "img": "https://user-images.githubusercontent.com/89401079/150892259-9fb0c7ec-bdb2-4cda-96e8-d32f4209ee04.png"
         },
         {
             "id": "4",
-            "bebestible": "fanta",
+            "bebestible": "Fanta",
             "valor": "800",
+            "description": "gaseosa fría a base de agua carbonatada sin alcohol.",
             "img": "https://user-images.githubusercontent.com/89401079/150892291-7c26684e-018f-42f8-88db-5bc03edf6310.jpg"
         },
         {
             "id": "5",
-            "bebestible": "sprite",
+            "bebestible": "Sprite",
             "valor": "800",
+            "description": "gaseosa fría a base de agua carbonatada sin alcohol.",
             "img": "https://user-images.githubusercontent.com/89401079/150892352-0e207e13-1f1d-42e7-88d2-32db42aec420.png"
         },
         {
             "id": "6",
-            "bebestible": "agua mineral con gas",
+            "bebestible": "Agua mineral con gas",
             "valor": "700",
+            "description": "Fria y refrescante agua mineral con gas 500 ml",
             "img": "https://user-images.githubusercontent.com/89401079/150892411-293acf58-2e32-462b-b241-fd5af86a1045.jpg"
         },
         {
             "id": "7",
-            "bebestible": "agua mineral sin gas",
+            "bebestible": "Agua mineral sin gas",
             "valor": "700",
+            "description": "Fria y refrescante agua mineral con gas 500 ml",
             "img": "https://user-images.githubusercontent.com/89401079/150892451-637172ac-46a6-43d6-a431-eb690b1a7db9.jpg"
         }
     ],
@@ -48,24 +55,28 @@
             "id": "8",
             "alimento": "",
             "valor": "",
+            "description": "",
             "img": ""
         },
         {
             "id": "9",
             "alimento": "",
             "valor": "",
+            "description": "",
             "img": ""
         },
         {
             "id": "10",
             "alimento": "",
             "valor": "",
+            "description": "",
             "img": ""
         },
         {
             "id": "11",
             "alimento": "",
             "valor": "",
+            "description": "",
             "img": ""
         }
     ],
@@ -73,26 +84,41 @@
         {
             "id": "12",
             "juego": "Dixit",
+            "description": "Dixit es un juego de mesa donde el objetivo es adivinar una carta a partir de pistas que se dan en forma de frase o narración, El narrador baraja su carta con todas las cartas recibidas. Todas las imágenes se muestran boca arriba y cada jugador tiene que apostar qué imagen es la del narrador.",
+            "jugadores":"De 3 a 6",
+            "duracion":"Apriximadamente entre 30-40 minutos",
             "img": "https://user-images.githubusercontent.com/89401079/150892523-b6cbd576-ee3b-435b-ad0b-dba06c7eab3f.jpg"
         },
         {
             "id": "13",
-            "juego": "exploding kittens",
+            "juego": "Exploding kittens",
+            "description": "Exploding Kittens es una versión de la ruleta rusa impulsada por gatitos. Los jugadores se turnan para sacar cartas hasta que alguien saca un gatito que explota y pierde el juego. El mazo se compone de cartas que te permiten evitar explotar al mirar las cartas antes de robar, obligar a tu oponente a robar varias cartas o barajar el mazo.",
+            "jugadores":"De 2 a 5",
+            "duracion":"Apriximadamente entre 10-15 minutos",
             "img": "https://user-images.githubusercontent.com/89401079/150892581-9318057b-a69c-4e7d-b7b5-c22fd9d487e5.jpg"
         },
         {
             "id": "14",
             "juego": "Sushi go party",
+            "description": "Sushi Go Party!",
+            "jugadores":"De 2 a 5",
+            "duracion":"Apriximadamente entre 20-25 minutos",
             "img": "https://user-images.githubusercontent.com/89401079/150892655-2db0e48f-49fc-415d-a19a-b15fb06509a7.jpg"
         },
         {
             "id": "15",
             "juego": "The resistance",
+            "description": "La Resistencia es un juego de mesa de deducción social.Los jugadores son agentes de la resistencia o espías imperiales. Durante tres a cinco rondas, deben depender unos de otros para llevar a cabo misiones contra el Imperio. Al mismo tiempo, deben tratar de deducir las identidades de los otros jugadores y ganarse su confianza.",
+            "jugadores":"De 5 a 10",
+            "duracion":"Apriximadamente 30 minutos",
             "img": "https://user-images.githubusercontent.com/89401079/150892691-6488c7f3-9100-4d97-9426-8662ebcd55c3.jpg"
         },
         {
             "id": "16",
             "juego": "Ticket to ride",
+            "description": "Ticket to Ride te lleva a una aventura en tren por Europa, el objetivo es coleccionar y jugar cartas de trenes para colocar tus piezas en el tablero, intentando conectar ciudades en tus cartas de boletos. Los puntos se obtienen tanto al colocar trenes como al completar boletos, pero los boletos sin completar le hacen perder puntos. Gana el jugador que tenga más puntos al final del juego. ",
+            "jugadores":"De 2 a 5",
+            "duracion":"Apriximadamente entre 45-60 minutos",
             "img": "https://user-images.githubusercontent.com/89401079/150892722-3b00dff3-3956-435f-8596-b9468a980197.jpeg"
         }
     ]

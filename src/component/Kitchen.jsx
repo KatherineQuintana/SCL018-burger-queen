@@ -18,7 +18,7 @@ const Kitchen = () => {
    </li>
    <hr/>
    <li class="nav-item">
-   <Link to="/Kitchen" class="btn btn-primary btn-lg"> Cocina </Link>
+   <Link to="/Waiters" class="btn btn-primary btn-lg"> Pedidos </Link>
    </li>
    <hr/>
    <li class="nav-item">
@@ -28,17 +28,17 @@ const Kitchen = () => {
 </div>
 </div>
 </nav>
-           
+<hr/>
+         <h1>Aqui irán la orden</h1>  
         </div>
     )
 }
 
 export default Kitchen
-
-/* {           
+/* 
+      {           
     order && order.bebidas.map(menu => (
         <><img id="imgMenu" key={menu.id} src={menu.img}></img>
         <li> {menu.bebestible} {menu.valor} </li></>
-    ))
-} */
+    ))} */
 
