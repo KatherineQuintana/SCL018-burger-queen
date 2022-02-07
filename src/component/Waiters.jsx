@@ -26,7 +26,7 @@ const Waiters = () => {
     <div className='container mt-5'>
       <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-primary">
         <div class="container-fluid">
-          <strong class="navbar-brand" >Navbar</strong>
+          <strong class="navbar-brand" >Algún nombre</strong>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +41,7 @@ const Waiters = () => {
               </li>
               <hr />
               <li class="nav-item">
-                <Link to="" class="btn btn-primary btn-lg"> carro </Link>
+                <Link to="" class="btn btn-primary btn-lg"> Carro </Link>
               </li>
             </ul>
           </div>
@@ -73,6 +73,7 @@ const Waiters = () => {
                         <h1 class="card-title">{menu.bebestible}</h1>
                         <strong><p class="card-text">{"$"}{menu.valor}</p></strong>
                         <p class="card-text"><small class="text-muted">{menu.description}</small></p>
+                        <button type="button" class="btn btn-outline-primary">Agregar</button>
                       </div>
                     </div>
                   </div>
@@ -117,6 +118,7 @@ const Waiters = () => {
                         <p class="card-text">{menu.description}</p>
                         <p class="card-text">{menu.jugadores}</p>
                         <p class="card-text">{menu.duracion}</p>
+                        <button type="button" class="btn btn-outline-primary">Agregar</button>
                       </div>
                     </div>
                   </div>

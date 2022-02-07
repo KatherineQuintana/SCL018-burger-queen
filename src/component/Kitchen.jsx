@@ -7,7 +7,7 @@ const Kitchen = () => {
       <div className='container mt-5'>
       <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-primary">
 <div class="container-fluid">
-<strong class="navbar-brand" >Navbar</strong>
+<strong class="navbar-brand" >Algún nombre</strong>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
  <span class="navbar-toggler-icon"></span>
 </button>
@@ -29,7 +29,7 @@ const Kitchen = () => {
 </div>
 </nav>
 <hr/>
-         <h1>Aqui irán la orden</h1>  
+         <h1>Aqui irán las ordenes</h1>  
         </div>
     )
 }
