@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
+import CompForm from './CompForm';
+import Navbar from './Navbar';
 
 
 const Waiters = () => {
@@ -22,49 +23,15 @@ const Waiters = () => {
 
 
   return (
-    //Navbar
+
     <div className='container mt-5'>
-      <nav className="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-primary">
-        <div className="container-fluid">
-          <strong className="navbar-brand" >Algún nombre</strong>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to="/Home" className="btn btn-primary btn-lg"> Home </Link>
-              </li>
-              <hr />
-              <li className="nav-item">
-                <Link to="/Kitchen" className="btn btn-primary btn-lg"> Cocina </Link>
-              </li>
-              <hr />
-              <li className="nav-item">
-                <Link to="" className="btn btn-primary btn-lg"> Carro </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+      {/* Barra de navegación */}
+      <Navbar></Navbar>
       <hr />
 
       {/* Formulario */}
-
-      <form className="row g-3">
-        <hr />
-        <div className="col-auto">
-          <label id="nameForm" className="visually-hidden">Nombre</label>
-          <input className="form-control" type="text" placeholder="Nombre" aria-label="default input example"></input>
-        </div>
-        <div className="col-auto">
-          <label id="tableForm" class="visually-hidden">Mesa</label>
-          <input className="form-control" type="text" placeholder="Mesa" aria-label="default input example"></input>
-        </div>
-        <div className="col-auto">
-          <button type="submit" className="btn btn-primary mb-3">Enviar datos</button>
-        </div>
-      </form>
+      <CompForm></CompForm>
 
       {/* vista para el menú */}
 
