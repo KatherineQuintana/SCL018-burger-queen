@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <div className="card bg-dark text-white">
-            <img src="https://user-images.githubusercontent.com/89401079/150342945-4c670cb3-759a-45f9-88f2-83ca6cf6b65c.jpg" className="card-img" alt="..."></img>
+            <img src="https://user-images.githubusercontent.com/89401079/150342945-4c670cb3-759a-45f9-88f2-83ca6cf6b65c.jpg" className="card-img row-fluid" alt="..."></img>
             <div className="card-img-overlay">
                 <h1 className='text-center'>Bienvenidos</h1>
                 <section className='text-center'>

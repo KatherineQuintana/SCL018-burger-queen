@@ -26,12 +26,9 @@ const Waiters = () => {
 
     <div className='container mt-5'>
 
-      {/* Barra de navegación */}
-      <Navbar></Navbar>
-      <hr />
+      <Navbar/>
 
-      {/* Formulario */}
-      <CompForm></CompForm>
+      <CompForm/>
 
       {/* vista para el menú */}
 
@@ -47,22 +44,21 @@ const Waiters = () => {
 
               {/* vista de las bebidas*/}
               {order && order.bebidas.map(menu => (
-                <><></><div className="card mb-3" key={menu.id}>
+                <div className="card mb-3" key={menu.id}>
                   <div className="row g-0">
                     <div className="col-md-4">
-                      <img src={menu.img} class="img-fluid rounded-start" alt="..."></img>
+                      <img src={menu.img} className="img-fluid rounded-start" alt="..."></img>
                     </div>
                     <div className="col-md-8">
                       <div className='card-body'>
                         <h1 className="card-title">{menu.bebestible}</h1>
                         <strong><p className="card-text">{"$"}{menu.valor}</p></strong>
-                        <p className="card-text"><small class="text-muted">{menu.description}</small></p>
+                        <p className="card-text"><small className="text-muted">{menu.description}</small></p>
                         <button type="button" className="btn btn-outline-primary">Agregar</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                  <hr /></>
               ))}
 
             </div>
@@ -91,7 +87,7 @@ const Waiters = () => {
 
               {/* vista de los juegos*/}
               {order && order.boardgame.map(menu => (
-                <><></><div class="card mb-3" key={menu.id}>
+                <div class="card mb-3" key={menu.id}>
                   <div className="row g-0">
                     <div className="col-md-4">
                       <img src={menu.img} className="img-fluid rounded-start" alt="..."></img>
@@ -107,10 +103,8 @@ const Waiters = () => {
                     </div>
                   </div>
                 </div>
-                  <hr /></>
               ))}
-
-
+              
             </div>
           </div>
         </div>
