@@ -17,6 +17,7 @@ const CompForm = () => {
   const sendData = (event) => {
     event.preventDefault();
     console.log(data.client + '' + data.table)
+    event.target.reset();
   }
 
   return <div>

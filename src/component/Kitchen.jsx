@@ -30,6 +30,7 @@ const Kitchen = () => {
           </div>
         </div>
       </nav>
+      
       <h1 >Aqui irán las ordenes</h1>
 
     </div>
